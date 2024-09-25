@@ -1,7 +1,7 @@
 ---
-name: Canvas
-release: 2023
+name: Meetly
+release: 2020
 image: /projects/canvas.webp
-link: https://canvas.hrcd.fr/
+link: https://tague-meet.vercel.app/
 layout: project
 ---
