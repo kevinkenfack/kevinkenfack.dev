@@ -15,22 +15,7 @@
       "link": "https://nestjs.com/",
       "logo": "SvgoNestColor"
     },
-     {
-      "name": "Next",
-      "link": "https://nextjs.org/",
-      "logo": "SvgnextColor"
-    },
-     {
-      "name": "Next",
-      "link": "https://nextjs.org/",
-      "logo": "SvgnextColor"
-    },
-     {
-      "name": "Next",
-      "link": "https://nextjs.org/",
-      "logo": "SvgnextColor"
-    },
-     {
+    {
       "name": "Next",
       "link": "https://nextjs.org/",
       "logo": "SvgnextColor"
@@ -111,7 +96,7 @@
       "logo": "SvgoLightroomColor"
     },
     {
-      "name": "shopify",
+      "name": "Shopify",
       "link": "https://www.shopify.com/",
       "logo": "SvgoShopifyColor"
     }
