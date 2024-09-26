@@ -35,7 +35,7 @@ useHead({
 })
 
 useSeoMeta({
-  author: 'Kevin Kenfack Portfolio',
+  author: 'Kevin Kenfack',
   ogType: 'website',
   ogTitle: appConfig.appName,
   ogSiteName: 'Kevin Kenfack',

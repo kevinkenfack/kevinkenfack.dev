@@ -30,7 +30,7 @@ export default defineNuxtConfig({
     identity: {
       type: 'Person',
     },
-    twitter: '@HugoRCD__',
+    twitter: '@kenfackdev',
   },
 
   css: ['~/assets/style/main.css'],
@@ -95,7 +95,7 @@ export default defineNuxtConfig({
     },
     baseUrl: '/',
     locales: ['en', 'fr'],
-    defaultLocale: 'en',
+    defaultLocale: 'fr',
     vueI18n: '~/i18n.config.ts',
   },
 
@@ -122,7 +122,7 @@ export default defineNuxtConfig({
       anchorLinks: false,
     },
     locales: ['en', 'fr'],
-    defaultLocale: 'en',
+    defaultLocale: 'fr',
   },
 
   svgo: {
