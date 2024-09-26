@@ -35,10 +35,10 @@ useHead({
 })
 
 useSeoMeta({
-  author: 'Hugo Richard',
+  author: 'Kevin Kenfack Portfolio',
   ogType: 'website',
   ogTitle: appConfig.appName,
-  ogSiteName: 'Canvas',
+  ogSiteName: 'Kevin Kenfack',
   ogUrl: () => runtimeConfig.public.siteUrl,
   ogLocale: () => locale.value,
   twitterTitle: appConfig.appName,
