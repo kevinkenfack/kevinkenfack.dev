@@ -18,7 +18,7 @@
     {
       "name": "Next",
       "link": "https://nextjs.org/",
-      "logo": "SvgnextColor"
+      "logo": "SvgoNextColor"
     },
     {
       "name": "TailwindCSS",
@@ -33,7 +33,7 @@
     {
       "name": "Typescript",
       "link": "https://www.typescriptlang.org/",
-      "logo": "SvgotypescriptColor"
+      "logo": "SvgoTypescriptColor"
     },
     {
       "name": "Vercel",
@@ -43,7 +43,7 @@
     {
       "name": "node js",
       "link": "https://nodejs.org/",
-      "logo": "SvgonodeColor"
+      "logo": "SvgoNodeColor"
     },
     {
       "name": "Linear",
