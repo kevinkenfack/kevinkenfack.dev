@@ -31,9 +31,19 @@
       "logo": "SvgoPrismaColor"
     },
     {
+      "name": "Typescript",
+      "link": "https://www.typescriptlang.org/",
+      "logo": "SvgotypescriptColor"
+    },
+    {
       "name": "Vercel",
       "link": "https://vercel.com/",
       "logo": "SvgoVercel"
+    },
+    {
+      "name": "node js",
+      "link": "https://nodejs.org/",
+      "logo": "SvgonodeColor"
     },
     {
       "name": "Linear",
