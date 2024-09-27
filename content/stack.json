@@ -61,9 +61,19 @@
       "logo": "SvgoRaycastColor"
     },
     {
+      "name": "Chat GPT",
+      "link": "https://chatgpt.com/",
+      "logo": "SvgoChatgptColor"
+    },
+    {
       "name": "Notion",
       "link": "https://www.notion.so/",
       "logo": "SvgoNotionColor"
+    },
+    {
+      "name": "Vs code",
+      "link": "https://code.visualstudio.com/?ref=janmarshal.com",
+      "logo": "SvgoVscodeColor"
     },
     {
       "name": "Cron",
