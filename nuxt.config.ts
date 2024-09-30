@@ -14,6 +14,9 @@ export default defineNuxtConfig({
           'data-domain': 'canvas.hrcd.fr',
         },
       ],
+      meta: [
+        { name: 'theme-color', content: '#e2e2f7' },
+      ],
     },
     pageTransition: {
       name: 'fade',
