@@ -3,6 +3,10 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
 
+  router: {
+    middleware: 'maintenance'
+  },
+
   app: {
     head: {
       viewport: 'width=device-width, initial-scale=1',
