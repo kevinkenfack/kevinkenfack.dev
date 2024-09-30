@@ -26,7 +26,7 @@
     </div>
     <NuxtLink href="https://drive.google.com/file/d/1DneRpWpaKrHKjAOgfIzzhWKNeOVj8eeP/view?usp=drive_link">
       <img
-        src="https://vercel.com/button"
+        src="https://kevinkenfack-dev.vercel.app/assets/my-cv.svg"
         alt="Download CV"
       >
     </NuxtLink>
