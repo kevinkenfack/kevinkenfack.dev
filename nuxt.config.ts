@@ -47,6 +47,8 @@ export default defineNuxtConfig({
       siteUrl: process.env.NUXT_PUBLIC_SITE_URL,
       available: process.env.NUXT_PUBLIC_AVAILABLE,
       meetingLink: process.env.NUXT_PUBLIC_MEETING_LINK,
+      maintenanceMode: process.env.NUXT_PUBLIC_MAINTENANCE_MODE, // Ajout ici
+
     },
     private: {
       resendApiKey: process.env.NUXT_PRIVATE_RESEND_API_KEY,

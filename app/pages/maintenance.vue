@@ -1,22 +1,32 @@
 <template>
-    <div class="maintenance">
-      <h1>Le site est actuellement en maintenance</h1>
-      <p>Nous serons de retour bientôt. Merci pour votre patience !</p>
+    <div class="maintenance-page">
+      <h1>Le site est en maintenance</h1>
+      <p>Nous reviendrons bientôt. Merci pour votre patience.</p>
     </div>
   </template>
   
   <script lang="ts">
-  import { defineComponent } from 'vue'
+  import { defineComponent } from 'vue';
   
   export default defineComponent({
     name: 'MaintenancePage',
-  })
+  });
   </script>
   
   <style scoped>
-  .maintenance {
+  .maintenance-page {
     text-align: center;
-    margin-top: 50px;
+    padding: 100px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .maintenance-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .maintenance-page p {
+    font-size: 1.2rem;
   }
   </style>
   
