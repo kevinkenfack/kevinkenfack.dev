@@ -13,9 +13,9 @@ export default defineNuxtConfig({
       charset: 'utf-8',
       script: [
         {
-          'src': 'https://analytics.hrcd.fr/js/script.js',
+          'src': 'https://kevin.tagueacademy.com/pixel/jhuRnJKYiPRl3Yp9',
           'defer': true,
-          'data-domain': 'canvas.hrcd.fr',
+          'data-domain': 'kevinkenfack.com',
         },
       ],
       meta: [
@@ -33,7 +33,7 @@ export default defineNuxtConfig({
   },
 
   site: {
-    url: process.env.NUXT_SITE_URL || 'https://canvas.hrcd.fr',
+    url: process.env.NUXT_SITE_URL || 'https://kevinkenfack.com/',
     identity: {
       type: 'Person',
     },
@@ -47,8 +47,6 @@ export default defineNuxtConfig({
       siteUrl: process.env.NUXT_PUBLIC_SITE_URL,
       available: process.env.NUXT_PUBLIC_AVAILABLE,
       meetingLink: process.env.NUXT_PUBLIC_MEETING_LINK,
-      maintenanceMode: process.env.NUXT_PUBLIC_MAINTENANCE_MODE, // Ajout ici
-
     },
     private: {
       resendApiKey: process.env.NUXT_PRIVATE_RESEND_API_KEY,
