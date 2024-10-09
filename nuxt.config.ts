@@ -2,10 +2,6 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
-
-  router: {
-    middleware: 'maintenance'
-  },
   
   app: {
     head: {
