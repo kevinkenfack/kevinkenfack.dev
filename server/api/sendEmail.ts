@@ -47,7 +47,7 @@ export default defineEventHandler(async (event: H3Event) => {
             <tbody>
               <tr style="width:100%">
                 <td>
-                  <img alt="Kenfack Folio" height="88" src="https://react-email-demo-3kjjfblod-resend.vercel.app/static/plaid-logo.png" style="display:block;outline:none;border:none;text-decoration:none;margin:0 auto" width="212" />
+                  <img alt="Kenfack Folio" height="88" src="https://i.imgur.com/tEIVPTC.png" style="display:block;outline:none;border:none;text-decoration:none;margin:0 auto" width="212" />
                   
                   <p style="font-size:11px;line-height:16px;margin:16px 8px 8px 8px;color:#0a85ea;font-weight:700;font-family:HelveticaNeue,Helvetica,Arial,sans-serif;height:16px;letter-spacing:0;text-transform:uppercase;text-align:center">
                     Merci pour votre message !

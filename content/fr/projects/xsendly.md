@@ -1,8 +1,8 @@
 ---
 name: Xsendly
 release: Comming soon
-image: /projects/canvas.webp
-link: https://xsender.com/
+image: /projects/xsendly.webp
+link: https://xsendly.com/
 featured: true
 layout: project
 ---
