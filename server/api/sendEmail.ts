@@ -31,7 +31,7 @@ export default defineEventHandler(async (event: H3Event) => {
     await resend.emails.send({
       from: 'Kenfack Folio <noreply@kevinkenfack.com>',
       to: [email],  // Envoi à l'email soumis dans le formulaire
-      subject: 'Merci pour votre message',
+      subject: 'Message reçu ',
       html: `
       <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
       <html dir="ltr" lang="en">
@@ -54,15 +54,15 @@ export default defineEventHandler(async (event: H3Event) => {
                   </p>
                   
                   <h1 style="color:#000;display:inline-block;font-family:HelveticaNeue-Medium,Helvetica,Arial,sans-serif;font-size:20px;font-weight:500;line-height:24px;margin-bottom:0;margin-top:0;text-align:center">
-                    Bonjour ${fullname}, merci de nous avoir contactés.
+                    Bonjour ${fullname}, merci de m'avoir contactés.
                   </h1>
                   
                   <p style="font-size:15px;line-height:23px;margin:16px 40px;color:#444;font-family:HelveticaNeue,Helvetica,Arial,sans-serif;text-align:center">
-                    Nous avons bien reçu votre message et nous vous répondrons dès que possible.
+                    J'ai bien reçu votre message et je vous repondrais dès que possible.
                   </p>
                   
                   <p style="font-size:15px;line-height:23px;margin:0;color:#444;font-family:HelveticaNeue,Helvetica,Arial,sans-serif;text-align:center">
-                    Si vous avez des questions supplémentaires, n'hésitez pas à nous contacter à 
+                    Si vous avez des questions supplémentaires, n'hésitez pas à me contacter à 
                     <a href="mailto:contact@kevinkenfack.com" style="color:#444;text-decoration:underline" target="_blank">contact@kevinkenfack.com</a>.
                   </p>
                 </td>
@@ -70,7 +70,7 @@ export default defineEventHandler(async (event: H3Event) => {
             </tbody>
           </table>
           <p style="font-size:12px;line-height:23px;margin:0;color:#000;font-weight:800;letter-spacing:0;margin-top:20px;font-family:HelveticaNeue,Helvetica,Arial,sans-serif;text-align:center;text-transform:uppercase">
-            Avec nos meilleurs sentiments, l'équipe Kenfack Folio.
+            Avec nos meilleurs sentiments, Kevin Kenfack.
           </p><!--/$-->
         </body>
       
