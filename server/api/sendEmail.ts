@@ -29,15 +29,15 @@ export default defineEventHandler(async (event: H3Event) => {
 
     // Envoi de l'email de remerciement à l'utilisateur avec le template HTML personnalisé
     await resend.emails.send({
-      from: 'Kenfack Folio <noreply@kevinkenfack.com>',
+      from: 'Kevin Kenfack <noreply@kevinkenfack.com>',
       to: [email],  // Envoi à l'email soumis dans le formulaire
-      subject: 'Message reçu ',
+      subject: 'Message reçu 😊',
       html: `
       <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
       <html dir="ltr" lang="en">
       
         <head>
-          <link rel="preload" as="image" href="https://react-email-demo-3kjjfblod-resend.vercel.app/static/plaid-logo.png" />
+          <link rel="preload" as="image" href="https://i.imgur.com/tEIVPTC.png" />
           <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
           <meta name="x-apple-disable-message-reformatting" /><!--$-->
         </head>
