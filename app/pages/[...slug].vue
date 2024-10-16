@@ -22,7 +22,7 @@ useHead({
 useSeoMeta({
   description: () => t('global.app_description'),
   author: 'Kevin Kenfack',
-  ogImage: 'https://canvas.hrcd.fr/social-preview.jpg',
+  ogImage: 'https://kevinkenfack.com/social-preview.jpg',
   ogType: 'website',
   ogTitle: appConfig.appName,
   ogDescription: () => t('global.app_description'),
@@ -33,7 +33,7 @@ useSeoMeta({
   twitterCard: 'summary_large_image',
   twitterSite: appConfig.twitterUsername,
   twitterCreator: appConfig.twitterUsername,
-  twitterImage: 'https://canvas.hrcd.fr/social-preview.jpg',
+  twitterImage: 'https://kevinkenfack.com/social-preview.jpg',
 })
 
 const { copy } = useClipboard({

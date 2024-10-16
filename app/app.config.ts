@@ -1,12 +1,12 @@
 export default defineAppConfig({
-  appName: 'Kevin Kenfack - Développeur Fullstack Next.js',
+  appName: 'Kevin Kenfack - Développeur Fullstack',
   appDescription: "Passionné par la création d'applications web modernes, intuitives et performantes, j'explore l'innovation à chaque projet.",
   profilePicture: '/assets/kevin-kenfack.webp',
   footerName: 'Kevin Kenfack',
   email: 'kevinkenfackjoel@gmail.com',
   twitterUsername: '@kenfackdev',
   phone: '(+33) 9 70 01 90 73',
-  openGraphImage: 'https://www.kevinkenfack.com//social-preview.jpg',
+  openGraphImage: 'https://www.kevinkenfack.com/social-preview.jpg',
   socials: {
     github: 'https://github.com/kevinkenfack',
     twitter: 'https://twitter.com/kenfackdev',
