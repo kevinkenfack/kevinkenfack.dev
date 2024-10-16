@@ -29,7 +29,7 @@ export default defineNuxtConfig({
   },
 
   site: {
-    url: process.env.NUXT_SITE_URL || 'https://kevinkenfack.com/',
+    url: process.env.NUXT_SITE_URL || 'https://www.kevinkenfack.com',
     identity: {
       type: 'Person',
     },
