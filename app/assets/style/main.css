@@ -74,5 +74,5 @@ html, body, #__nuxt, #__layout {
   @apply prose-pre:text-sm sm:prose-pre:text-base prose-pre:text-zinc-900 dark:prose-pre:text-zinc-100;
   @apply prose-code:text-zinc-900 dark:prose-code:text-zinc-100;
   @apply prose-strong:text-gray-900 dark:prose-strong:text-gray-100 prose-strong:font-[500];
-  @apply prose-p:m-0;
+  @apply prose-p:my-4; /* Ajoute une marge en haut et en bas des paragraphes */
 }
