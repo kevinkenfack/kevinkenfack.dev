@@ -7,7 +7,7 @@ tags:
   - Développement
   - Design
   - Productivité
-image: https://canvas.hrcd.fr/articles/launch-your-porfolio.jpg
+image: https://kevinkenfack.com/articles/launch-your-porfolio.jpg
 readingTime: '5'
 ---
 
