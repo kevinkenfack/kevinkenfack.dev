@@ -59,12 +59,12 @@ defineOgImage({
           {{ page?.title }}
         </h1>
         <div class="info-section mt-1 flex flex-col gap-2 sm:flex-row sm:gap-4">
-          <p>{{ page?.date }}</p>
-          <p class="hidden sm:block">
+          <p class="no-margin">{{ page?.date }}</p>
+          <p class="hidden sm:block no-margin">
             |
           </p>
-          <p>{{ page?.readingTime }} {{ $t("writing.readingTime") }}</p>
-          <p class="hidden sm:block">
+          <p class="no-margin">{{ page?.readingTime }} {{ $t("writing.readingTime") }}</p>
+          <p class="hidden sm:block no-margin">
             |
           </p>
           <UTooltip
@@ -72,7 +72,7 @@ defineOgImage({
             :shortcuts="['⌘', 'K']"
           >
             <p
-              class="flex cursor-pointer select-none items-center gap-1 transition-colors duration-200 hover:text-main"
+              class="flex cursor-pointer select-none items-center gap-1 transition-colors duration-200 hover:text-main no-margin"
               @click="copyArticleLink"
             >
               {{ $t("writing.share") }}
@@ -100,5 +100,8 @@ defineOgImage({
   color: #7d8084;
   text-decoration: none;
   text-align: left;
+}
+.no-margin {
+  margin: 0;
 }
 </style>
