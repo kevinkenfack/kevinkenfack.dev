@@ -22,7 +22,7 @@ useHead({
 useSeoMeta({
   description: () => t('global.app_description'),
   author: 'Kevin Kenfack',
-  ogImage: 'https://xora-landing-page-saas.vercel.app/social-preview.jpg',
+  ogImage: 'https://pro-portfolio-roan.vercel.app/images/og-image.jpg',
   ogType: 'website',
   ogTitle: appConfig.appName,
   ogDescription: () => t('global.app_description'),
@@ -33,7 +33,7 @@ useSeoMeta({
   twitterCard: 'summary_large_image',
   twitterSite: appConfig.twitterUsername,
   twitterCreator: appConfig.twitterUsername,
-  twitterImage: 'https://xora-landing-page-saas.vercel.app/social-preview.jpg',
+  twitterImage: 'https://pro-portfolio-roan.vercel.app/images/og-image.jpg',
 })
 
 const { copy } = useClipboard({

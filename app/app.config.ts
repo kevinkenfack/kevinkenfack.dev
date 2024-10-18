@@ -6,7 +6,7 @@ export default defineAppConfig({
   email: 'kevinkenfackjoel@gmail.com',
   twitterUsername: '@kenfackdev',
   phone: '(+33) 9 70 01 90 73',
-  openGraphImage: 'https://xora-landing-page-saas.vercel.app/social-preview.jpg',
+  openGraphImage: 'https://pro-portfolio-roan.vercel.app/images/og-image.jpg',
   socials: {
     github: 'https://github.com/kevinkenfack',
     twitter: 'https://twitter.com/kenfackdev',

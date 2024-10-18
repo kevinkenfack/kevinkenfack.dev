@@ -7,7 +7,7 @@ tags:
   - Vue
   - Raycast
   - Productivité
-image: https://canvas.hrcd.fr/articles/5-raycast-snippets.jpg
+image: https://kevinkenfack.com/articles/5-raycast-snippets.jpg
 readingTime: '10'
 ---
 
