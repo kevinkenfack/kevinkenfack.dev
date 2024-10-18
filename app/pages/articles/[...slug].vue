@@ -10,7 +10,31 @@ if (!page.value) {
   throw createError({ statusCode: 404, statusMessage: 'Page not found' })
 }
 
-useContentHead(page.value)
+useContentHead({
+  title: page.value.title, // Titre de l'article
+  meta: [
+    {
+      name: 'description',
+      content: page.value.description, // Description de l'article
+    },
+    {
+      property: 'og:title',
+      content: page.value.title, // Titre Open Graph
+    },
+    {
+      property: 'og:description',
+      content: page.value.description, // Description Open Graph
+    },
+    {
+      property: 'og:image',
+      content: page.value.image || 'default-image-url.jpg', // URL de l'image
+    },
+    {
+      property: 'og:url',
+      content: `${runtimeConfig.public.siteUrl}${page.value._path}`, // URL de l'article
+    },
+  ],
+});
 
 const runtimeConfig = useRuntimeConfig()
 const articleLink = ref(`${runtimeConfig.public.siteUrl}${page.value._path}`)
