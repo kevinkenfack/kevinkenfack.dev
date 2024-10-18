@@ -19,6 +19,7 @@ Raycast snippets are small, reusable pieces of text or code that can be quickly 
 
 Using Raycast snippets is straightforward. Once you've created or imported a snippet within the Raycast app, you can assign a specific keyword to it. This keyword acts as a trigger - whenever you type it in any application, the snippet will automatically expand in place, replacing the keyword with the full text or code of the snippet.
 
+
 For instance, if you have a snippet for a standard email sign-off, you can assign a keyword like `sig1`. Typing `sig1` in an email will then automatically expand to the full signature text. This feature is especially useful in coding, where you can have snippets for common code patterns or configurations.
 
 ![snippets-exemple](/articles/snippets-exemple.gif)
@@ -26,6 +27,7 @@ For instance, if you have a snippet for a standard email sign-off, you can assig
 ### Component Template: `!comp`
 
 The `!comp` snippet is a basic yet powerful template for creating new Vue components. It includes a script setup with TypeScript support, a template section, and scoped styling. This snippet is ideal for rapidly scaffolding new components in your project.
+
 
 **Usage Example:** Use `!comp` to quickly create new Vue components, ensuring consistency and saving time on setup.
 
@@ -56,6 +58,7 @@ const props = defineProps({
 
 Handling API requests is a common task in modern web applications. The `!api` snippet provides a template for creating API handlers using `h3`, a lightweight HTTP toolkit. This snippet streamlines the process of setting up API routes and handling requests.
 
+
 **Usage Example:** Implement the `!api` snippet for creating efficient API routes in your Nuxt application, especially when dealing with CRUD operations.
 
 ```ts
@@ -70,6 +73,7 @@ export default defineEventHandler(async (event: H3Event) => {
 ### State Management with Pinia: `!store`
 
 State management is crucial in large-scale applications. The `!store` snippet utilizes Pinia, a Vue store, offering a structured template for managing application state. It includes a state definition, getters, and actions.
+
 
 **Usage Example:** Utilize `!store` for setting up store modules in your Nuxt/Vue app, managing state more effectively and cleanly. the { clipboard } while be replaced by your actual clipboard.
 
@@ -101,6 +105,7 @@ export const use{clipboard}Store = defineStore('{clipboard}', {
 
 Composable functions in Vue 3 bring reusability and organization to your code. The `!cps` snippet offers a template for creating these functions, aiding in maintaining a clean and modular codebase.
 
+
 **Usage Example:** Use `!cps` for creating reusable composable functions that can be shared across components, enhancing code reusability and maintainability.
 
 ```ts
@@ -116,6 +121,7 @@ export function use{clipboard}() {
 ### Fetching Data with Composition API: `!fcomp`
 
 The `!fcomp` snippet is designed for fetching data using Vue's Composition API. It provides a setup for making HTTP requests, handling loading states, and managing errors, all within a component.
+
 
 **Usage Example:** Implement `!fcomp` in scenarios where you need to fetch data from an API, providing a robust structure for data fetching and state management.
 
@@ -162,5 +168,6 @@ Snippets cater to common development tasks, streamlining your workflow and reduc
 #### Foster Learning
 
 For new developers or those new to Nuxt and Vue, these snippets offer insight into best practices and efficient coding patterns.
+
 
 In conclusion, incorporating these Raycast snippets into your Nuxt and Vue development workflow can significantly enhance productivity, maintain code consistency, and streamline your development process. Whether you're building a small project or a large-scale application, these snippets are invaluable tools in the modern developer's arsenal.

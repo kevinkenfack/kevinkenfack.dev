@@ -23,6 +23,7 @@ Les extraits de Raycast sont de petits morceaux de texte ou de code réutilisabl
 
 L'utilisation des extraits de Raycast est simple. Une fois que vous avez créé ou importé un extrait dans l'application Raycast, vous pouvez lui assigner un mot-clé spécifique. Ce mot-clé agit comme un déclencheur : à chaque fois que vous le tapez dans une application, l'extrait s'étend automatiquement sur place, remplaçant le mot-clé par le texte ou le code complet de l'extrait.
 
+
 Par exemple, si vous avez un extrait pour une signature d'email standard, vous pouvez attribuer un mot-clé comme sig1. En tapant sig1 dans un email, celui-ci se transformera automatiquement en texte complet de la signature. Cette fonctionnalité est particulièrement utile dans le code, où vous pouvez avoir des extraits pour des modèles de code ou des configurations courants.
 
 ![snippets-exemple](/articles/snippets-exemple.gif)
@@ -30,6 +31,7 @@ Par exemple, si vous avez un extrait pour une signature d'email standard, vous p
 ### Modèle de composant : !comp
 
 L'extrait !comp est un modèle basique mais puissant pour créer de nouveaux composants Vue. Il inclut un script setup avec la prise en charge de TypeScript, une section template, et des styles encapsulés. Cet extrait est idéal pour générer rapidement de nouveaux composants dans votre projet.
+
 
 **Exemple d'utilisation** : Utilisez !comp pour créer rapidement de nouveaux composants Vue, garantissant la cohérence et économisant du temps sur la configuration.
 
@@ -60,6 +62,7 @@ const props = defineProps({
 
 Gérer les requêtes API est une tâche courante dans les applications web modernes. L'extrait !api fournit un modèle pour créer des gestionnaires d'API en utilisant h3, un outil HTTP léger. Cet extrait simplifie le processus de configuration des routes API et la gestion des requêtes.
 
+
 **Exemple d'utilisation** : Implémentez l'extrait !api pour créer des routes API efficaces dans votre application Nuxt, notamment lors de la gestion des opérations CRUD.
 
 ```ts
@@ -74,6 +77,7 @@ export default defineEventHandler(async (event: H3Event) => {
 ### Gestion d'état avec Pinia : !store
 
 La gestion d'état est cruciale dans les applications à grande échelle. L'extrait !store utilise Pinia, un store Vue, et offre un modèle structuré pour gérer l'état de l'application. Il inclut une définition d'état, des getters et des actions.
+
 
 **Exemple d'utilisation** : Utilisez !store pour configurer des modules de store dans votre application Nuxt/Vue, en gérant l'état de manière plus efficace et propre. Le { clipboard } sera remplacé par votre presse-papiers actuel..
 
@@ -105,6 +109,7 @@ export const use{clipboard}Store = defineStore('{clipboard}', {
 
 Les fonctions composables dans Vue 3 apportent réutilisabilité et organisation à votre code. L'extrait !cps offre un modèle pour créer ces fonctions, aidant à maintenir un code propre et modulaire.
 
+
 **Exemple d'utilisation** : Utilisez !cps pour créer des fonctions composables réutilisables qui peuvent être partagées entre les composants, améliorant ainsi la réutilisabilité et la maintenabilité du code.
 
 ```ts
@@ -120,6 +125,7 @@ export function use{clipboard}() {
 ### Récupération de données avec l'API de composition : !fcomp
 
 L'extrait !fcomp est conçu pour récupérer des données en utilisant l'API de composition de Vue. Il propose une configuration pour effectuer des requêtes HTTP, gérer les états de chargement et les erreurs, le tout au sein d'un composant.
+
 
 **Exemple d'utilisation** : Implémentez !fcomp dans des scénarios où vous devez récupérer des données à partir d'une API, en offrant une structure robuste pour la récupération des données et la gestion des états..
 
@@ -166,5 +172,6 @@ Les extraits répondent aux tâches de développement courantes, simplifiant vot
 #### Encourager l'apprentissage
 
 Pour les nouveaux développeurs ou ceux qui découvrent Nuxt et Vue, ces extraits offrent un aperçu des meilleures pratiques et des schémas de codage efficaces.
+
 
 En conclusion, l'incorporation de ces extraits Raycast dans votre flux de travail Nuxt et Vue peut considérablement améliorer la productivité, maintenir la cohérence du code et rationaliser votre processus de développement. Que vous construisiez un petit projet ou une application à grande échelle, ces extraits sont des outils inestimables dans l'arsenal du développeur moderne.
