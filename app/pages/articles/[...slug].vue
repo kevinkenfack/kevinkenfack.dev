@@ -13,7 +13,6 @@ if (!page.value) {
 useContentHead(page.value)
 
 const runtimeConfig = useRuntimeConfig()
-const articleTitle = page.value.title || 'Titre par défaut';
 const articleLink = ref(`${runtimeConfig.public.siteUrl}${page.value._path}`)
 
 const { copy } = useClipboard({
@@ -40,11 +39,6 @@ defineOgImage({
   width: 1200,
   height: 600,
 })
-
-defineOgtitle({
-    title: articleTitle, // Titre de l'article ou fallback
-  });
-
 </script>
 
 <template>
