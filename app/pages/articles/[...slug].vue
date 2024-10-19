@@ -34,15 +34,17 @@ defineShortcuts({
   },
 })
 
-defineOgImage({
-  url: page.value.image,
-  width: 1200,
-  height: 600,
-})
-
-defineOgtitle({
-    title: page.value.title || 'Default Title',  // Utiliser un titre par défaut en cas d'absence
+if (page.value) {
+  defineOgImage({
+    url: page.value.image || '',  // Fallback si 'image' est manquant
+    width: 1200,
+    height: 600,
   });
+
+  defineOgtitle({
+    title: page.value.title || 'Default Title',  // Fallback si 'title' est manquant
+  });
+}
 
 </script>
 
