@@ -39,6 +39,11 @@ defineOgImage({
   width: 1200,
   height: 600,
 })
+
+defineOgtitle({
+  title: articleTitle.value, // Titre de l'article
+})
+
 </script>
 
 <template>
