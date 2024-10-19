@@ -15,15 +15,51 @@ export default defineEventHandler(async (event: H3Event) => {
       to: ['kevinkenfackjoel@gmail.com'],
       subject: 'Nouveau message de Kenfack Folio',
       html: `
-      <p>Un nouveau message a été envoyé depuis le formulaire de contact de Kenfack Folio.</p>
-      <p>Voici les détails du message :</p>
-      <ul>
-        <li>Nom : ${fullname}</li>
-        <li>Email : ${email}</li>
-        <li>Téléphone : ${phone}</li>
-        <li>Sujet : ${subject}</li>
-        <li>Message : ${message}</li>
-      </ul>
+  <!DOCTYPE html>
+      <html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nouveau message de contact</title>
+  </head>
+
+  <body style="background-color:#ffffff;font-family:Helvetica,Arial,sans-serif;margin:0;padding:0">
+    <table align="center" width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color:#ffffff;padding:20px;">
+      <tr>
+        <td>
+          <table align="center" width="100%" style="max-width:600px;border:1px solid #ddd;border-radius:8px;padding:20px;background-color:#ffffff;">
+            <tr>
+              <td style="text-align:center;padding-bottom:20px;">
+                <h1 style="font-size:24px;color:#333;margin:0;">Nouveau Message 📥</h1>
+                <p style="font-size:16px;color:#555;margin-top:8px;">Un nouveau message a été envoyé depuis le formulaire de contact de Kenfack Folio.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p style="font-size:16px;color:#333;margin-bottom:16px;">Voici les détails du message :</p>
+                <ul style="list-style:none;padding:0;color:#555;font-size:14px;">
+                  <li style="padding:8px 0;border-bottom:1px solid #ddd;"><strong>Nom :</strong> ${fullname}</li>
+                  <li style="padding:8px 0;border-bottom:1px solid #ddd;"><strong>Email :</strong> ${email}</li>
+                  <li style="padding:8px 0;border-bottom:1px solid #ddd;"><strong>Téléphone :</strong> ${phone}</li>
+                  <li style="padding:8px 0;border-bottom:1px solid #ddd;"><strong>Sujet :</strong> ${subject}</li>
+                  <li style="padding:8px 0;"><strong>Message :</strong>
+                    <pre style="white-space:pre-wrap;font-size:14px;color:#333;background-color:#f7f7f7;padding:10px;border-radius:5px;border:1px solid #ddd;">${message}</pre>
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align:center;padding-top:20px;">
+                <p style="font-size:14px;color:#888;">Envoyer depuis <a href="https://kevinkenfack.com" style="color:#5e6ad2;text-decoration:none;">Kenfackfolio</a>.</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+
+</html>
       `,
     })
 
@@ -54,7 +90,7 @@ export default defineEventHandler(async (event: H3Event) => {
                   </p>
                   
                   <h1 style="color:#000;display:inline-block;font-family:HelveticaNeue-Medium,Helvetica,Arial,sans-serif;font-size:20px;font-weight:500;line-height:24px;margin-bottom:0;margin-top:0;text-align:center">
-                    Bonjour ${fullname}, merci de m'avoir contactés.
+                    Bonjour <strong>${fullname}</strong>, merci de m'avoir contactés.
                   </h1>
                   
                   <p style="font-size:15px;line-height:23px;margin:16px 40px;color:#444;font-family:HelveticaNeue,Helvetica,Arial,sans-serif;text-align:center">
@@ -70,7 +106,7 @@ export default defineEventHandler(async (event: H3Event) => {
             </tbody>
           </table>
           <p style="font-size:12px;line-height:23px;margin:0;color:#000;font-weight:800;letter-spacing:0;margin-top:20px;font-family:HelveticaNeue,Helvetica,Arial,sans-serif;text-align:center;text-transform:uppercase">
-            Avec nos meilleurs sentiments, Kevin Kenfack.
+            Cordialement, Kevin Kenfack.
           </p><!--/$-->
         </body>
       
