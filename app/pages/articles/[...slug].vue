@@ -41,8 +41,8 @@ defineOgImage({
 })
 
 defineOgtitle({
-  title: articleTitle.value, // Titre de l'article
-})
+    title: page.value.title || 'Default Title',  // Utiliser un titre par défaut en cas d'absence
+  });
 
 </script>
 
