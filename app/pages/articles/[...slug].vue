@@ -15,6 +15,16 @@ useContentHead(page.value)
 const runtimeConfig = useRuntimeConfig()
 const articleLink = ref(`${runtimeConfig.public.siteUrl}${page.value._path}`)
 
+useSeoMeta({
+  ogSiteName: 'Kevin Kenfack',
+  author: 'Kevin Kenfack',
+  title: page.value.title,
+  description: page.value.description,
+  twitterTitle: page.value.title,
+  twitterDescription: page.value.description,
+  twitterCard: 'summary_large_image'
+})
+
 const { copy } = useClipboard({
   source: articleLink.value,
 })
