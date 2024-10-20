@@ -1,7 +1,7 @@
 ---
-name: Maison Hochard
+name: Myra London
 release: 2022
 image: /projects/maison-hochard.webp
-link: https://mh.hrcd.fr/
+link: https://www.nyralondon.com/
 layout: project
 ---
