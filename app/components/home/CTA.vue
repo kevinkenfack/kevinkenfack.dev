@@ -24,7 +24,7 @@
       </UTooltip>
       <MeetingButton />
     </div>
-    <NuxtLink href="https://drive.google.com/file/d/1DneRpWpaKrHKjAOgfIzzhWKNeOVj8eeP/view?usp=drive_link">
+    <NuxtLink href="https://drive.google.com/file/d/1q5sHTvEz963Ik6OQMA4EeiKrT4rPuKWx/view?usp=sharing" target="_blank">
       <img
         src="/assets/button.png"
         alt="Download CV"
