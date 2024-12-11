@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.hrcd.fr/sitemap.xml
+Sitemap: https://www.kevinkenfack.com/sitemap.xml
